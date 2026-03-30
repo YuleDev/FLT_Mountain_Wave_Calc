@@ -1,21 +1,32 @@
-## 📲 Installation & Usage
+# 🏔️ Mountain Wave Calculator
 
-### 1. Web Access (PWA)
-The easiest way to use this is to deploy to **Vercel** or **GitHub Pages**. Once live:
-* **Desktop:** Click the "Install" icon in the browser address bar.
-* **Mobile/Tablet:** Select "Add to Home Screen" from your browser menu.
-This allows offline access—crucial for flight bags and pre-flight briefings.
+**Fly safer in the mountains.** This tool helps you predict the location and intensity of mountain waves (lee waves) and dangerous rotor zones. Essential for cross-country planning or local mountain training.
 
-### 2. Bookmarklet
-To keep the calculator one click away in your browser:
-1. Create a new bookmark in your browser.
-2. Name it `Wave Calc`.
-3. Set the URL to your hosted application link (e.g., `https://your-username.github.io/mountain-wave/`).
+---
 
-### 3. Developer Setup
-If you want to run this locally on your machine:
-```bash
-git clone [https://github.com/yourusername/mountain-wave-calculator.git](https://github.com/yourusername/mountain-wave-calculator.git)
-cd mountain-wave-calculator
-npm install
-npm start
+## 📲 How to "Install" on Your Device
+
+This calculator is a **Web App**, meaning you don't need the App Store. For the best experience (and to use it offline), follow these steps:
+
+### 📱 For iPad & iPhone (Safari)
+1. Open the calculator link in **Safari**.
+2. Tap the **Share** icon (square with an up arrow).
+3. Scroll down and tap **Add to Home Screen**.
+4. The calculator will now appear on your home screen just like a regular app!
+
+### 🤖 For Android (Chrome)
+1. Open the calculator link in **Chrome**.
+2. Tap the **three dots** in the top right corner.
+3. Tap **Install app** or **Add to Home screen**.
+
+### 💻 For Desktop/Laptop
+* **Chrome/Edge:** Click the **Install** icon (a small computer with a down arrow) in the right side of the address bar.
+* **Bookmark it:** Press `Ctrl+D` (Windows) or `Cmd+D` (Mac) to save it to your bookmarks bar for quick access during briefings.
+
+## ⚠️ Safety Warning
+This calculator is for **supplemental planning only**. Mountain waves can create downdrafts that exceed the climb capability of training aircraft like the **DA40** or **Cessna 172**. 
+
+* If the wind at the ridge is >25 knots, expect significant wave action.
+* If you encounter a downdraft you cannot outclimb, turn **away** from the mountain immediately toward lower terrain.
+
+*Developed by a student pilot for student pilots.*
