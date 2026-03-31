@@ -1,7 +1,9 @@
 # ✈️ Mountain Wave Risk Calculator
 **A Preflight Decision Tool for Wasatch Front and Western Mountain Terrain Flights**
 
-[Live Tool](https://yuledev.github.io/FLT_Mountain_Wave_Calc/) · [FAA Reference](https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/media/FAA-H-8083-28.pdf) · [ACS Standards](#acs-standards-directly-addressed)
+[![Live Tool](https://img.shields.io/badge/Live%20Tool-Open%20Calculator-38bdf8?style=for-the-badge&logo=google-chrome&logoColor=white)](https://yuledev.github.io/FLT_Mountain_Wave_Calc/)
+[![FAA Reference](https://img.shields.io/badge/FAA-H--8083--28-1d4ed8?style=for-the-badge&logo=bookstack&logoColor=white)](https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/media/FAA-H-8083-28.pdf)
+[![ACS Standards](https://img.shields.io/badge/ACS-Standards%20Addressed-16a34a?style=for-the-badge&logo=checkmarx&logoColor=white)](#acs-standards-directly-addressed)
 
 ---
 
@@ -295,4 +297,4 @@ The wave ratio heuristic used in this calculator is an informal decision aid —
 
 *Built to enable and protect pilots. Fly the wing. Trust the math. Respect the waves.*
 
-*Companion briefing: "The Invisible Rollercoaster — Mastering Mountain Wave Turbulence at Night"*
+*Companion briefing: "The Invisible Rollercoaster — Mastering Mountain Wave Turbulence"*
