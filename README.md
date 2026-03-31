@@ -29,7 +29,16 @@ Mountain wave turbulence is the most underestimated hazard in western US general
 | GA fatal turbulence accidents (2008–2022) | 35 of 40 | FAA 2008–2022 |
 | Part 121 fatal turbulence accidents since 2008 | 0 | FAA 2008–2022 |
 
-The typical accident profile: single piston-engine aircraft, Part 91, private or student certificate, cruise or maneuvering flight, western US. That is the audience this tool is built for.
+The typical accident profile, by the numbers:
+
+| Who | Percentage |
+|---|---|
+| Single piston-engine aircraft involved | 74% |
+| Operating under Part 91 (GA rules) | 90% |
+| Pilot held only a Private certificate | 47% |
+| Accident occurred during cruise or maneuvering flight | 70% |
+
+If you are a student or newly certificated private pilot flying a single-engine piston aircraft in the western US — **this is you.** That is the audience this tool is built for.
 
 Neither BOAC Speedbird 911 (124 killed, Mt. Fuji, 1966) nor JAL/Evergreen 46E (engine separated, Anchorage, 1993) were caused by a lack of available information. They were caused by not acting on it. This tool forces the act of checking.
 
@@ -174,6 +183,28 @@ A SportCruiser flown by an instrument-rated pilot is still a SportCruiser. Selec
 
 ---
 
+## Weight-Adjusted Maneuvering Speed (Va)
+
+This concept is not computed by the calculator but is essential knowledge for any pilot operating near mountain terrain.
+
+Va is not a fixed number — it **decreases as the aircraft gets lighter:**
+
+```
+Va (adjusted) = Va (max gross) × √( Current Weight ÷ Max Gross Weight )
+```
+
+**Why this matters in a rotor:** A lighter aircraft reaches its structural load limit at a lower airspeed. If you are flying solo with partial fuel in a SportCruiser or DA20, your actual Va may be 10–15 knots below the placarded value. Exceeding adjusted Va in severe turbulence can cause structural failure.
+
+**The scenario:** Solo student, half tanks, SportCruiser. Published Va = 83 kts. Aircraft weight ~950 lbs vs. max gross 1,320 lbs.
+```
+Va (adjusted) = 83 × √(950 ÷ 1320) = 83 × 0.848 = ~70 kts
+```
+That pilot's actual structural margin disappears 13 knots sooner than the placard suggests. In a rotor encounter, that gap can matter.
+
+**Rule:** Know your weight before you depart. Calculate your adjusted Va. In turbulence, stay 10–15 knots *below* your adjusted Va — not at it.
+
+---
+
 ## In-Flight Quick Reference
 
 If the preflight check is missed and a wave encounter occurs:
@@ -278,12 +309,14 @@ The venturi geometry of the Wasatch-to-west-range gap accelerates already-fast a
 
 | Resource | Link |
 |---|---|
-| FAA Aviation Weather Handbook (FAA-H-8083-28) | [faa.gov](https://www.faa.gov) |
+| FAA Aviation Weather Handbook (FAA-H-8083-28A) | [faa.gov](https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/faa-h-8083-28a-aviation-weather-handbook) |
 | AOPA Air Safety Institute — Mountain Flying Course | [aopa.org/asf](https://www.aopa.org/training-and-safety/air-safety-institute) |
 | Aviation Weather Center (GFA, PIREPs, SIGMETs) | [aviationweather.gov](https://aviationweather.gov) |
 | NTSB Aviation Accident Database | [ntsb.gov](https://www.ntsb.gov) |
 | Utah Soaring Association (Wasatch wave expertise) | [utahsoaring.org](https://www.utahsoaring.org) |
 | KSLC Skew-T Sounding | [aviationweather.gov/upperair](https://aviationweather.gov/upperair/java) |
+| ForeFlight — GFA overlay + Winds Aloft layers | Use winds aloft layer set to ridge MSL altitude; check 12,000 ft for Wasatch flights |
+| SkyVector — Flight planning with weather overlay | Cross-reference winds aloft and active SIGMETs during route planning |
 
 ---
 
