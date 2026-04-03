@@ -108,7 +108,7 @@ Perpendicular flow across the Wasatch from the W/NW is the classic high-risk set
 
 ### Step 5 — Atmospheric Stability Check (Wizard)
 
-A guided 5-question wizard assesses atmospheric stability from publicly available weather data (ForeFlight Winds Aloft, aviationweather.gov Skew-T). No meteorology background required.
+A guided 5-question wizard assesses atmospheric stability from publicly available weather data (ForeFlight Winds Aloft, Skew-T). No meteorology background required.
 
 **Critical architecture note:** The stability wizard assesses meteorological conditions only — temperature inversion, wind direction consistency, and wind shear. PIREPs and SIGMETs are intentionally excluded from the stability score. They are assessed separately as real-world risk signals and scored independently. This prevents double-counting and keeps the Froude Number calculation physically meaningful.
 
@@ -249,7 +249,7 @@ High groundspeed in a tailwind means a steeper descent gradient over the ground.
 | AIM 7-1-5 | AIRMETs — Sierra, Tango, Zulu |
 | AIM 7-1-6 | SIGMETs — non-convective (WS) turbulence criterion |
 | FAR 91.103 | Preflight action requirements |
-| AC 00-45 | Aviation Weather Services — Skew-T, PIREPs, GFA |
+| AC 00-45 | Skew-T, PIREPs, GFA |
 
 ---
 
@@ -310,11 +310,9 @@ The venturi geometry of the Wasatch-to-west-range gap accelerates already-fast a
 | Resource | Link |
 |---|---|
 | FAA Aviation Weather Handbook (FAA-H-8083-28A) | [faa.gov](https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/faa-h-8083-28a-aviation-weather-handbook) |
-| AOPA Air Safety Institute — Mountain Flying Course | [aopa.org/asf](https://www.aopa.org/training-and-safety/air-safety-institute) |
 | Aviation Weather Center (GFA, PIREPs, SIGMETs) | [aviationweather.gov](https://aviationweather.gov) |
 | NTSB Aviation Accident Database | [ntsb.gov](https://www.ntsb.gov) |
 | Utah Soaring Association (Wasatch wave expertise) | [utahsoaring.org](https://www.utahsoaring.org) |
-| KSLC Skew-T Sounding | [aviationweather.gov/upperair](https://aviationweather.gov/upperair/java) |
 | ForeFlight — GFA overlay + Winds Aloft layers | Use winds aloft layer set to ridge MSL altitude; check 12,000 ft for Wasatch flights |
 | SkyVector — Flight planning with weather overlay | Cross-reference winds aloft and active SIGMETs during route planning |
 
