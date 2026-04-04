@@ -174,7 +174,7 @@ The aircraft selector reflects airframe structural margin: Va at max gross weigh
 
 | Aircraft | Sea-Level Climb | Va (gross) | Structural Penalty |
 |---|---|---|---|
-| SportCruiser | 700 fpm | 83 kts | +15 pts |
+| SportCruiser | 700 fpm | 88 kts | +15 pts |
 | DA20-C1 | 800 fpm | 99 kts | +10 pts |
 | DA40 | 1,070 fpm | 111 kts | +5 pts |
 | Heavier GA | 1,200 fpm | 128 kts | +0 pts |
