@@ -132,11 +132,17 @@ ISA temp = 15°C − (1.98°C per 1,000 ft)
 Adjusted Climb Rate = Book Climb Rate × (1 − DA / Service Ceiling)
 ```
 
-**Estimated wave sink** is derived from wave ratio thresholds, based on NASA/FAA mountain wave study data:
-- Wave ratio < 2.5 → ~500 fpm
-- Wave ratio 2.5–4.0 → ~1,500 fpm
-- Wave ratio 4.0–6.0 → ~3,000 fpm
-- Wave ratio > 6.0 → ~5,000 fpm
+**Estimated wave sink** uses piecewise linear interpolation between four anchor points
+(NASA/FAA mountain wave studies, NTSB accident data):
+
+| Wave Ratio | Est. Wave Sink | Condition |
+|---|---|---|
+| 0 | ~200 fpm | Negligible wave |
+| 2.5 | ~1,000 fpm | Moderate organized wave |
+| 4.0 | ~3,000 fpm | Significant wave — exceeds most light aircraft climb rate |
+| 6.0+ | ~5,000+ fpm | Windstorm / hydraulic jump conditions |
+
+Values between anchors are linearly interpolated — no step-function cliffs.
 
 **Climb margin** = Adjusted Climb Rate − Estimated Wave Sink
 
