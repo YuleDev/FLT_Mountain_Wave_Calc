@@ -15,7 +15,7 @@ The tool is structured around a critical operational principle: **you evaluate e
 
 For each leg, the tool computes wave ratio, Froude Number regime, vertical wave scale, ridge clearance, time to terrain, density altitude, adjusted climb rate, estimated wave sink, and climb margin — combined into a structured preflight check with a scored go/no-go output.
 
-This tool is a companion to the ground school briefing *"The Invisible Rollercoaster: Mastering Mountain Wave Turbulence at Night."*
+This tool is a companion to the ground school briefing *"The Invisible Rollercoaster: Mastering Mountain Wave Turbulence."*
 
 ---
 
